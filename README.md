@@ -25,7 +25,6 @@
 |34-37|| neg &lt;reg8&gt; | Negates a value and stores in A |
 |38|00-FF| imul &lt;imm8&gt; | Signed multiplies register A by a value |
 |39|00-FF| iadd &lt;imm8&gt; | Signed adds register A by a value |
-|3A|00-FF| neg &lt;imm8&gt; | Negates a value and stores in A |
 |3B|00-FF| jmpfar &lt;imm8&gt; | Jumps to an absolute address |
 |3C-3F|| cmp &lt;reg8&gt; | Compares register A to value and stores in flags |
 |40|00-FF| cmp &lt;imm8&gt; | Compares register A to value and stores in flags |
@@ -45,6 +44,7 @@
 |64|| clf | Clears the flags register |
 |65|| nf | Negates the flags register |
 |66|| gf | Stores the flags register in register D |
+|68-7B|| not &lt;reg8&gt; | Bitwise NOT's a value and stores in B |
 
 ## Flags
 | Bit No | Name | Description |
