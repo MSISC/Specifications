@@ -14,9 +14,9 @@
 |04-07|00-FF| lda &lt;reg8&gt;, &lt;mem8&gt; | Loads data into register from memory location |
 |08-0B|| jmprel &lt;reg8&gt; | Jumps a certain number of bytes ahead from the start of this instruction |
 |0C|00-FF| jmprel &lt;imm8&gt; | Jumps a certain number of bytes ahead from the start of this instruction |
+|0D|00-FF| sub &lt;imm8&gt; | Subtracts a value from register A |
 |0E|00-FF| mul &lt;imm8&gt; | Multiplies register A by a value |
 |0F|00-FF| add &lt;imm8&gt; | Adds a value to register A |
-|0F|00-FF| sub &lt;imm8&gt; | Subtracts a value from register A |
 |10-13|| mul &lt;reg8&gt; | Multiplies register A by a value |
 |14-17|| add &lt;reg8&gt; | Adds a value to register A | 
 |18-2B|| sub &lt;reg8&gt; | Subtracts a value from register A |
