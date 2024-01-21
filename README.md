@@ -19,7 +19,7 @@
 |0F|00-FF| add &lt;imm8&gt; | Adds a value to register A |
 |10-13|| mul &lt;reg8&gt; | Multiplies register A by a value |
 |14-17|| add &lt;reg8&gt; | Adds a value to register A | 
-|18-2B|| sub &lt;reg8&gt; | Subtracts a value from register A |
+|18-1B|| sub &lt;reg8&gt; | Subtracts a value from register A |
 |2C-2F|| imul &lt;reg8&gt; | Signed multiplies register A by a value |
 |30-33|| iadd &lt;reg8&gt; | Signed adds register A by a value |
 |34-37|| neg &lt;reg8&gt; | Negates a value and stores in A |
